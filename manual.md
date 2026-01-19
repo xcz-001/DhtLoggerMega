@@ -26,16 +26,9 @@
 <img src=images/lcd.png>
 - SD Card Module (SPI)
 <img src=images/sd.png height=120% width =500>
-- Relays (Pump, Motor, Fans)
-<img src=images/4relay.png>
-- Servo Motor
-<img src=images/servo.png>
 - Push Button
 <img src=images/button.png height=120% width =500>
-- Emergency Off switch
-<img src=images/es.png>
-- Main Power Switch
-<img src=images/main.png>
+
 
 ---
 ## 📖 How To Use
@@ -43,7 +36,7 @@
 ### On First Setup
 - Install the power supply. Connect main power(labelled "TOPOWERSUPPLY220V") to the power supply's L and N pins. Connect 12v(labelled "FromPOWERSUPPLY12V") to power supply,white wire to V+, grey to V-. (see pinout below)
 - Format and Insert a clean 32GB sdcard to the sdCard module.
-- Ensure to connect the right outputs to the its corresponding pins as labeled on the terminal blocks inside the control panel(see pinout below), Or namely: 
+- Ensure to connect the right outputs to the its corresponding pins as labeled on the terminal blocks inside the control panel(see pinout below), Or namely:
 
 ```txt
 TERMINAL BLOCK 1
